@@ -24,7 +24,7 @@ public class main {
 		List<Usuario> lstUsuarios = consulta.getResultList();
 		System.out.println("nro de usuarios: " + lstUsuarios.size());
 		for (Usuario u : lstUsuarios){
-			System.out.println(">>>1.." + u);
+			System.out.println(">>>hola." + u);
 		}
 		// 5. confirmar la transacción
 		em.getTransaction().commit();
